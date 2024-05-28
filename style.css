@@ -1,3 +1,13 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+
 ul {
   list-style: none;
   padding: 0;
@@ -8,13 +18,37 @@ ul {
 
 .header {
   display: flex;
-  padding: 0 128px;
+  padding: 8px 128px;
+  background-color: #1F2937;
 }
 
 .logo {
   margin-right: auto;
+  color: #F9FAF8;
+  font-size: 24px;
 }
 
 a {
   text-decoration: none;
+  color: #E5E7EB;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #1F2937;
+}
+
+.hero div {
+  flex: 1 1 0;
+  text-align: center;
+}
+
+h1 {
+  color: #F9FAF8;
+}
+
+p {
+  color: #E5E7EB;
 }
