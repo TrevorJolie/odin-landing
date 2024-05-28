@@ -1,0 +1,20 @@
+ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 16px;
+  margin: 0;
+}
+
+.header {
+  display: flex;
+  padding: 0 128px;
+}
+
+.logo {
+  margin-right: auto;
+}
+
+a {
+  text-decoration: none;
+}
