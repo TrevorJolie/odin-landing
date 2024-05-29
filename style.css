@@ -6,20 +6,25 @@ body {
   display: flex;
   flex-direction: column;
   margin: 0;
+  height: 100vh;
 }
 
 ul {
   list-style: none;
   padding: 0;
+  margin: 0;
+}
+
+.header ul {
   display: flex;
   gap: 16px;
-  margin: 0;
 }
 
 .header {
   display: flex;
   padding: 8px 128px;
   background-color: #1F2937;
+  flex: 0 0 auto;
 }
 
 .logo {
@@ -38,8 +43,8 @@ a {
   align-items: center;
   justify-content: center;
   background-color: #1F2937;
-  padding: 64px;
   gap: 32px;
+  flex: 1 1 auto;
 }
 
 .hero div {
@@ -56,6 +61,7 @@ h1 {
 .header p, .hero p {
   color: #E5E7EB;
   margin: 0;
+  flex: 0 0 auto;
 }
 
 button, .call {
@@ -68,12 +74,17 @@ button, .call {
 
 .placeholder {
   background-color: #9d9fa397;
-  align-self: stretch;
+  align-self: center;
+  padding: 64px;
   flex-basis: 360px;
   display: flex;
   align-items: center;
   justify-content: center;
   color: #E5E7EB;
+}
+
+.information {
+  flex: 1 1 auto;
 }
 
 .image {
@@ -90,7 +101,7 @@ button, .call {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 32px;
+  gap: 48px;
   text-align: center;
 }
 
@@ -100,10 +111,38 @@ button, .call {
   font-size: 14px;
 }
 
+li p {
+  margin: 4px 0;
+}
+
 h2 {
   text-align: center;
   font-size: 36px;
   font-weight: 1000;
   color: #1F2937;
+  margin: 32px;
 }
 
+.quote {
+  background-color: #E5E7EB;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 1;
+  flex: 1 1 auto;
+}
+
+.quotetext {
+  margin: 16px 0 0 0;
+  width: 720px;
+  text-align: left;
+  font-size: 36px;
+  font-weight: light;
+  color: #1F2937;
+}
+
+.credit {
+  text-align: end;
+  width: 720px;
+  margin: 0;
+}
