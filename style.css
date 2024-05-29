@@ -53,7 +53,7 @@ h1 {
   margin: 0;
 }
 
-p {
+.header p, .hero p {
   color: #E5E7EB;
   margin: 0;
 }
@@ -69,8 +69,41 @@ button, .call {
 .placeholder {
   background-color: #9d9fa397;
   align-self: stretch;
+  flex-basis: 360px;
   display: flex;
   align-items: center;
   justify-content: center;
   color: #E5E7EB;
 }
+
+.image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 120px;
+  height: 120px;
+  border: 3px solid #3882F6;
+  border-radius: 8px;
+}
+
+.boxes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+  text-align: center;
+}
+
+.boxes li {
+  flex-basis: 120px;
+  text-align: center;
+  font-size: 14px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 1000;
+  color: #1F2937;
+}
+
