@@ -1,12 +1,12 @@
 * {
   box-sizing: border-box;
+  font-family: "Roboto";
 }
 
 body {
   display: flex;
   flex-direction: column;
   margin: 0;
-  height: 100vh;
 }
 
 ul {
@@ -44,11 +44,12 @@ a {
   justify-content: center;
   background-color: #1F2937;
   gap: 32px;
+  padding: 96px;
   flex: 1 1 auto;
 }
 
 .hero div {
-  flex: 0 1 360px
+  flex: 0 1 400px
 }
 
 h1 {
@@ -66,7 +67,7 @@ h1 {
 
 button, .call {
   background-color: #3882F6;
-  padding: 4px 16px;
+  padding: 8px 32px;
   border-radius: 8px;
   border: none;
   margin-top: 8px;
@@ -76,8 +77,8 @@ button, .call {
 .placeholder {
   background-color: #9d9fa397;
   align-self: center;
-  padding: 64px;
-  flex-basis: 360px;
+  padding: 96px 80px;
+  flex-basis: 400px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -86,14 +87,15 @@ button, .call {
 
 .information {
   flex: 1 1 auto;
+  padding-bottom: 96px;
 }
 
 .image {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 120px;
-  height: 120px;
+  width: 160px;
+  height: 160px;
   border: 3px solid #3882F6;
   border-radius: 8px;
 }
@@ -107,9 +109,9 @@ button, .call {
 }
 
 .boxes li {
-  flex-basis: 120px;
+  flex-basis: 160px;
   text-align: center;
-  font-size: 14px;
+  font-size: 17px;
 }
 
 li p {
@@ -131,6 +133,7 @@ h2 {
   align-items: center;
   flex-shrink: 1;
   flex: 1 1 auto;
+  padding: 96px;
 }
 
 .quotetext {
@@ -138,7 +141,7 @@ h2 {
   width: 720px;
   text-align: left;
   font-size: 36px;
-  font-weight: light;
+  font-weight: 200;
   color: #1F2937;
 }
 
