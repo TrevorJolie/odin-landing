@@ -154,3 +154,34 @@ h2 {
   width: 720px;
   margin: 0;
 }
+
+/* Following section styles the call to action section */
+.signup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 48px 0;
+}
+
+.call {
+  padding: 48px 96px;
+  display: flex;
+  justify-content: flex-start;
+  gap: 120px;
+}
+
+.calltext h3 {
+  margin: 0;
+  padding: 0;
+}
+
+.calltext p {
+  padding: 4px 0;
+  margin: 0;
+  font-weight: 200;
+  font-size: 14px;
+}
+
+.call button {
+  border: 2px solid white;
+}
